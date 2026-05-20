@@ -17,5 +17,3 @@ pyrhon scripts/hand_align.py
 # For Stage2: Body Outpainting & Video Generation
 python scripts/stage2.py
 ```
-
-Comming soon!
