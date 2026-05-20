@@ -1,0 +1,14 @@
+infer_meta_json: "../data/infer_meta.json"
+
+width: 512
+height: 512
+guidance_scale: 7.5
+
+stable_diffusion_path: "../pretrained_weights/stable-diffusion-v1-5"
+
+pretrained_unet_path: "../pretrained_weights/stage_1/unet/"
+pretrained_ref_embedder: "../pretrained_weights/stage_1/ref_img_embedder.pth"
+pretrained_mask_predicter: "../pretrained_weights/stage_1/mask_predicter.pth"
+
+save_dir: "../results/stage1_results"
+stage1_aligned_root: "../results/stage1_results_aligned"

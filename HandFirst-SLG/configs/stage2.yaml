@@ -1,0 +1,26 @@
+seed: 42
+infer_steps: 40
+mask_steps: 40
+cfg: 3.5
+start_frame: 0
+max_video_length: 100
+
+width: 512
+height: 512
+fps: 30.0
+
+infer_meta_json: ""
+
+stage1_aligned_root: "../results/stage1_results_aligned"
+
+animateanyone_pretrained_path: "../pretrained_weights/AnimateAnyone_pretrained"
+stable_diffusion_path: "../pretrained_weights/stable-diffusion-v1-5"
+svd_config: "../configs/stable_video_diffusion.yaml"
+
+pretrained_motion_module: 
+
+pretrained_denoising_unet: "../pretrained_weights/stage_2/denoising_unet.pth"
+pretrained_reference_unet: "../pretrained_weights/stage_2/reference_unet.pth"
+pretrained_pose_guider: "../pretrained_weights/stage_2/pose_guider.pth"
+
+save_dir: "../results/stage2_results"
