@@ -13,7 +13,7 @@ pip install -r requirements.txt
 # For Stage1: Hand Region Image Generation
 python scripts/stage1.py
 # Then align generated hand-region image&mask to corresponding place
-pyrhon scripts/hand_align.py
+python scripts/hand_align.py
 # For Stage2: Body Outpainting & Video Generation
 python scripts/stage2.py
 ```
